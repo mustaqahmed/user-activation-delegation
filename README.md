@@ -84,7 +84,8 @@ partial dictionary PostMessageOptions {
 We also explorerd the possibility of adding an `<iframe>` attribute to allow
 activation visibility in selected subframes.  This API won't be useful when the
 receiver frame is not a descedant subframe (e.g. a sibling frame in the frame
-tree), or when the sender frame would transfer conditionally.
+tree), or when the sender frame would transfer dynamically (e.g. only certain
+clicks would be delegated instead of all).
 
 
 ## Demo
