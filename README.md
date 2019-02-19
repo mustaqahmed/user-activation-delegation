@@ -86,7 +86,7 @@ window.addEventListener("message", messageReceiver);
 
 The changes below are on top of `PostMessateOptions` added through [JS API for
 querying User Activation states](https://github.com/dtapuska/useractivation).
-```webidl
+```WebIDL
 partial dictionary PostMessageOptions {
   boolean transferUserActivation = false;
 };
