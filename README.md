@@ -31,6 +31,11 @@ passing on the activation state to any `window` in the frame tree.
 
 ## Proposed API for activation transfer
 
+### Proposed spec change
+
+[Here](https://github.com/whatwg/html/pull/4369) is the initial pull request for
+whatwg/html.
+
 ### Example usage
 
 Suppose a page has a button on the top frame, and it has a subframe that wants
