@@ -116,7 +116,8 @@ clicks would be delegated instead of all).
 
 ## Demo
 
-_TODO: Work in progress._
+Work in progress.  First need to complete an implementation behind a flag in
+Chrome.  Note that the API can't be done through a polyfill.
 
 
 ## Related links
