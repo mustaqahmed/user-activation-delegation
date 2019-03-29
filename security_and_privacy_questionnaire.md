@@ -89,9 +89,13 @@ No.
 
 ### 3.16 Does this specification have a "Security Considerations" and "Privacy Considerations" section?
 
+Yes in both cases.
+
 There is no privacy concerns here: the only user info that gets exposed to the
 receiver frame is whether the user has interacted with a page.  This info can be
-exposed already through a traditional `postMessage()`, see Q3.5 above.
+exposed already through a traditional `postMessage()`, see Q3.5 above.  Also see
+[here](https://github.com/mustaqahmed/user-activation-delegation/blob/master/privacy_considerations.md)
+for more details on privacy.
 
 We don't see any security risk in the proposed spec.  We have already considered
 possible security issues in the general idea of activation transfer (see

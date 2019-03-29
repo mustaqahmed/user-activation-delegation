@@ -104,6 +104,7 @@ partial dictionary WindowPostMessageOptions {
   design](https://docs.google.com/document/d/1NKLJ2MBa9lA_FKRgD2ZIO7vIftOJ_YiXXMYfRMdlV-s/edit?usp=sharing)
   with security considerations.
 
+- [Privacy considerations](https://github.com/mustaqahmed/user-activation-delegation/blob/master/privacy_considerations.md).
 
 ### Alternates explored
 
