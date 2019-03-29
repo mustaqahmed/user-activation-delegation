@@ -28,6 +28,11 @@ few regressions where the developers would like to override this default
 visibility.  To support such use-cases, we are proposing here an API that allows
 passing on the activation state to any `window` in the frame tree.
 
+Note, however, that our proposed API makes sense without User Activation v2 too,
+even though we have [spec
+limitations](https://github.com/whatwg/html/issues/1903) with the notion of user
+activation.
+
 
 ## Proposed API for activation transfer
 
