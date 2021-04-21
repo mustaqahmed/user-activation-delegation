@@ -1,3 +1,7 @@
+This proposal is deprecated, replaced by [WICG/capability-delegation](https://github.com/WICG/capability-delegation)
+
+---
+
 # Activation Transfer through postMessages
 An API to allow developers transfer user activation state to any target `window`
 in the frame tree.
